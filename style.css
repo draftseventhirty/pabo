@@ -1,0 +1,73 @@
+:root {
+  color-scheme: light dark;
+  --bg: #fff;
+  --fg: #111;
+  --link: #00e;
+  --link-visited: #551a8b;
+  --code-bg: #f0f0f0;
+  --border: #ccc;
+  --muted: #555;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg: #111;
+    --fg: #eee;
+    --link: #7ab7ff;
+    --link-visited: #c79bff;
+    --code-bg: #222;
+    --border: #444;
+    --muted: #aaa;
+  }
+}
+
+body {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 65ch;
+  padding: 1rem;
+  background: var(--bg);
+  color: var(--fg);
+}
+
+a { color: var(--link); }
+a:visited { color: var(--link-visited); }
+
+h1 { font-size: 1.5rem; }
+h2 { font-size: 1.25rem; }
+h3 { font-size: 1.1rem; }
+
+pre, code {
+  background: var(--code-bg);
+  font-family: inherit;
+}
+
+pre {
+  padding: .5rem;
+  overflow-x: auto;
+  border-left: 2px solid var(--border);
+}
+
+blockquote {
+  border-left: 2px solid var(--border);
+  padding-left: 1rem;
+  color: var(--muted);
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid var(--border); padding: .3rem .5rem; text-align: left; }
+
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: 1rem;
+  padding: .4rem;
+  border: 1px solid var(--border);
+  background: var(--bg);
+  color: var(--fg);
+  display: block;
+  margin-bottom: .5rem;
+}
+
+img { max-width: 100%; display: block; }
