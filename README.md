@@ -1,5 +1,5 @@
 # pabo
-a collection of useful services built for dumbphones and limited data plans. Built out of my hatred for bloated websites and my love for old technology.
+a collection of useful services built for dumbphones and limited data plans. built out of my hatred for bloated websites and my love for old technology.
 
 ## features:
 - a news aggregator that opens headlines in a text-only view (will look cleaner eventually)
