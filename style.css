@@ -28,18 +28,21 @@ body {
   line-height: 1.6;
   max-width: 65ch;
   padding: 1rem;
+  background: #fff;
   background: var(--bg);
+  color: #111;
   color: var(--fg);
 }
 
-a { color: var(--link); }
-a:visited { color: var(--link-visited); }
+a { color: #00e; color: var(--link); }
+a:visited { color: #551a8b; color: var(--link-visited); }
 
 h1 { font-size: 1.5rem; }
 h2 { font-size: 1.25rem; }
 h3 { font-size: 1.1rem; }
 
 pre, code {
+  background: #f0f0f0;
   background: var(--code-bg);
   font-family: inherit;
 }
@@ -47,24 +50,35 @@ pre, code {
 pre {
   padding: .5rem;
   overflow-x: auto;
+  border-left: 2px solid #ccc;
   border-left: 2px solid var(--border);
 }
 
 blockquote {
+  border-left: 2px solid #ccc;
   border-left: 2px solid var(--border);
   padding-left: 1rem;
+  color: #555;
   color: var(--muted);
 }
 
 table { border-collapse: collapse; width: 100%; }
-th, td { border: 1px solid var(--border); padding: .3rem .5rem; text-align: left; }
+th, td {
+  border: 1px solid #ccc;
+  border: 1px solid var(--border);
+  padding: .3rem .5rem;
+  text-align: left;
+}
 
 input, textarea, select, button {
   font-family: inherit;
   font-size: 1rem;
   padding: .4rem;
+  border: 1px solid #ccc;
   border: 1px solid var(--border);
+  background: #fff;
   background: var(--bg);
+  color: #111;
   color: var(--fg);
   display: block;
   margin-bottom: .5rem;
