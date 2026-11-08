@@ -1,4 +1,4 @@
-# pabo — TODO
+# pabo -- TODO
 
 Improvements for a static, zero-build, dumbphone-friendly utility site.
 Grouped by priority; nothing here is implemented yet.
@@ -8,15 +8,15 @@ Grouped by priority; nothing here is implemented yet.
 - [ ] Remove the duplicate `</head>` in `utils/weather/index.html`
 - [ ] Remove the duplicate `</head>` in `utils/dictionary/index.html`
 - [ ] Move the `Back home` links inside `<body>` on every util page
-      (weather, dictionary, news, all 4 `news/sources/*.html`, qr — they currently sit after `</body>`)
+      (weather, dictionary, news, all 4 `news/sources/*.html`, qr -- they currently sit after `</body>`)
 - [ ] Fix or remove the dead `<script src="script.js">` in root `index.html` (no such file; 404 on every load)
-- [ ] Link `/style.css` (or a relative path) in `utils/qr/index.html` — it is currently unstyled
+- [ ] Link `/style.css` (or a relative path) in `utils/qr/index.html` -- it is currently unstyled
 - [ ] Add `lang="en"` where missing
 - [ ] Add `<meta name="viewport">` to `utils/weather/index.html` and `utils/dictionary/index.html`
 
 ## 2. Privacy & third-party dependence
 
-- [ ] **news**: remove reliance on `api.rss2json.com` — self-host an RSS→JSON shim,
+- [ ] **news**: remove reliance on `api.rss2json.com` -- self-host an RSS→JSON shim,
       or parse feeds client-side behind a CORS proxy we control
 - [ ] **news**: remove reliance on `r.jina.ai` for the text-only article view,
       or document it clearly as a known dependency
@@ -54,7 +54,7 @@ Grouped by priority; nothing here is implemented yet.
 - [ ] Add `<label>` elements for all inputs (placeholder-only is not enough)
 - [ ] Give the QR `<img>` a meaningful `alt` (describe the encoded value or "QR code")
 - [ ] Audit focus styles / keyboard operation for buttons and inputs
-- [ ] Keep avoiding flex/grid/layout modules — this is a feature for feature phones
+- [ ] Keep avoiding flex/grid/layout modules -- this is a feature for feature phones
 
 ## 6. Project hygiene
 
