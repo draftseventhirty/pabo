@@ -2,14 +2,14 @@
 a collection of useful services built for dumbphones and limited data plans. built out of my hatred for bloated websites and my love for old technology.
 
 ## features:
-- a news aggregator that opens headlines in a text-only view (will look cleaner eventually)
-- a weather client based on Open-Meteo
-- a dictionary with audio pronunciation
-- a qr code generator
+- news aggregator that opens headlines in a text-only view (will look cleaner eventually)
+- weather client based on Open-Meteo
+- dictionary with audio pronunciation
+- qr code generator
+- tip calculator
 
 ## possible additions:
 works offline (no data):
-- tip & bill splitter
 - unit converter
 - calculator
 - quick notes / scratchpad
