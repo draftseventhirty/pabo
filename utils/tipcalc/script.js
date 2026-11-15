@@ -6,6 +6,6 @@ function calcTip() {
   // document.getElementById("tip-amount").textContent("$" + subtotal * (tipPercentage / 100));
   // document.getElementById("total").textContent("$" + (subtotal * (tipPercentage / 100)) + subtotal);
 
-  tipAmount.innerHTML = "tip: $" + subtotal * tipPercentage;
+  tipAmount.innerHTML = "tip: $" + Math.round((subtotal * tipPercentage) * 100) / 100;
   total.innerHTML = "total: $" + ((subtotal * tipPercentage) + subtotal);
 }
